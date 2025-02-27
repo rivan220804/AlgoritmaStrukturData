@@ -3,7 +3,7 @@
 | NIM |  244107020239|
 | Nama |  Rivan Fahlul Fadillah |
 | Kelas | TI - 1H |
-| Repository | [link] ( ) |
+| Repository | [link] (https://github.com/rivan220804/AlgoritmaStrukturData/tree/main/jobsheet2) |
 
 # JOBSHEET 2
 
@@ -25,7 +25,7 @@ class : Punya fungsion dan method
 5. method nilaiKinerja() mendapat parameter dari double ipk. Kemudian nilai yang digunakan jika ipknya >= 3.5 maka Kinerja sangat baik, jika ipk 3.0 - 3.49 maka Kinerja baik, ipk 2.0 - 2.99 Kinerja cukup, dan ipk < 2 Kinerja kurang.  mengembalikan nilai berupa string yang menjelaskan method nilai kinerja mahasiswa.
 6. Hasil push dan commit ke github
 
-![alt text](img/.png)
+![alt text](img/push.png)
 
 
 ## 2.2.1 Percobaan 2
@@ -63,7 +63,7 @@ Jawaban :
         mhs2.tampilkanInformasi();
 6. Hasil commit Github
 
-![alt text](img/.png)
+![alt text](img/push.png)
 
 2.4 Latihan Praktikum
 
