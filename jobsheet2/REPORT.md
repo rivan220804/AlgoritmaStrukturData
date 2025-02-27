@@ -65,9 +65,13 @@ Jawaban :
 
 ![alt text](img/push.png)
 
+
+
 2.4 Latihan Praktikum
 
-1. ![alt text](img/Mahasiswa1.png)
+1. Hasil kode program latihan praktikum 1 
+
+![alt text](img/Mahasiswa1.png)
 
 Penjelasan: 
 1. Kelas Matakuliah23 Merepresentasikan data mata kuliah dengan atribut:
@@ -91,7 +95,9 @@ mk2 (menggunakan konstruktor berparameter).
 6. Memanggil method untuk menampilkan, mengubah SKS, serta menambah/mengurangi jumlah jam.
 
 
-2. ![alt text](img/Dosen.png)
+2. Hasil kode program latihan praktikum 2
+
+![alt text](img/Dosen.png)
 
 Penjelasan:
 1. Kelas Dosen23
