@@ -1,9 +1,9 @@
+package Jobsheet2;
 import java.util.Scanner;
 public class MahasiswaMain23 {
 
     public static void main(String[] args) {
         Mahasiswa23 mhs1 = new Mahasiswa23() ;
-       
         mhs1.nama = "Muhammad Ali Farhan";
         mhs1.nim = "2241720171";
         mhs1.kelas = "S1 2J";

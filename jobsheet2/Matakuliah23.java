@@ -1,27 +1,36 @@
+package Jobsheet2;
 import java.util.Scanner;
 public class Matakuliah23 {
-
+    
     String kodeMk;
-    String nama;
+    String nama; 
     int sks;
     int jumlahJam;
 
-    void tampilInformasi() {
-        System.out.println("Kode MK : " + kodeMk);
-        System.out.println("Nama : " + nama);
-        System.out.println("SKS : " + sks);
+    public void tampilkanInformasi() {
+        System.out.println("Kode MK    : " + kodeMk);
+        System.out.println("Nama       : " + nama);
+        System.out.println("SKS        : " + sks);
         System.out.println("Jumlah jam : " + jumlahJam);
+        System.out.println();
     }
-    void ubahSKS(int sksBaru) {
+    public void ubahSKS(int sksBaru) {
         sks = sksBaru;
     }
-    void tambahJam(int jam) {
+    public void tambahJam(int jam) {
         jumlahJam += jam;
     }
-    void kurangiJam(int jam) {
+    public void kurangiJam(int jam) {
         if (jam < jumlahJam) 
         jumlahJam -= jam;
     }
-    
-   
+    public Matakuliah23() {
+    }
+    public Matakuliah23(String kodeMk, String nama, int sks, int jumlahJam) {
+        this.kodeMk = kodeMk;
+        this.nama = nama;
+        this.sks = sks;
+        this.jumlahJam = jumlahJam;
+    }
 }
+    
