@@ -1,4 +1,3 @@
-package Jobsheet2;
 import java.util.Scanner;
 public class Dosen23 {
 

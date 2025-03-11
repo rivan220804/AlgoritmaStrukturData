@@ -1,11 +1,20 @@
-package Jobsheet2;
 import java.util.Scanner;
 public class Mahasiswa23 {
         String nama;
         String nim;
         String kelas;
         double ipk;
-    
+
+        public Mahasiswa23() {}
+
+
+    public Mahasiswa23(String nama, String nim, double ipk, String kelas) {
+        this.nama = nama;
+        this.nim = nim;
+        this.ipk = ipk;
+        this.kelas = kelas;
+    }
+
         void tampilkanInformasi() {
             System.out.println("Nama : " + nama);
             System.out.println("NIM : " + nim);
@@ -38,13 +47,6 @@ public class Mahasiswa23 {
                 return "Kinerja kurang";
             }
         }
-        public Mahasiswa23() {
-        }
-        public Mahasiswa23(String nm, String nim, double ipk, String kls) {
-            nama = nm;
-            this.nim = nim;
-            this.ipk = ipk;
-            kelas = kls;
-        }
+    
     }
     
