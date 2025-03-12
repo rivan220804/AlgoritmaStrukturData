@@ -1,14 +1,11 @@
 class DataDosen23 {
 
-    // Menampilkan semua data dosen
     public static void dataSemuaDosen23(Dosen23[] arrayOfDosen) {
         System.out.println("\nData Semua Dosen:");
         for (Dosen23 dosen : arrayOfDosen) {
             dosen.cetakInfo();
         }
     }
-
-    // Menampilkan jumlah dosen berdasarkan jenis kelamin
     public static void jumlahDosenPerJenisKelamin23(Dosen23[] arrayOfDosen) {
         int pria = 0, wanita = 0;
         for (Dosen23 dosen : arrayOfDosen) {
@@ -21,8 +18,6 @@ class DataDosen23 {
         System.out.println("\nJumlah Dosen Pria: " + pria);
         System.out.println("Jumlah Dosen Wanita: " + wanita);
     }
-
-    // Menampilkan rata-rata usia dosen berdasarkan jenis kelamin
     public static void rerataUsiaDosenPerJenisKelamin23(Dosen23[] arrayOfDosen) {
         int totalUsiaPria = 0, totalUsiaWanita = 0;
         int countPria = 0, countWanita = 0;
@@ -43,8 +38,6 @@ class DataDosen23 {
         System.out.println("\nRata-rata usia dosen Pria: " + rerataPria);
         System.out.println("Rata-rata usia dosen Wanita: " + rerataWanita);
     }
-
-    // Menampilkan informasi dosen paling tua
     public static void infoDosenPalingTua23(Dosen23[] arrayOfDosen) {
         if (arrayOfDosen.length == 0) return;
 
@@ -58,8 +51,6 @@ class DataDosen23 {
         System.out.println("\nDosen Paling Tua:");
         tertua.cetakInfo();
     }
-
-    // Menampilkan informasi dosen paling muda
     public static void infoDosenPalingMuda23(Dosen23[] arrayOfDosen) {
         if (arrayOfDosen.length == 0) return;
 

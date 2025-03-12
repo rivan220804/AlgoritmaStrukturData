@@ -4,15 +4,12 @@ public class DosenDemo23 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Input jumlah dosen
         System.out.print("Masukkan jumlah dosen: ");
         int jumlah = scanner.nextInt();
-        scanner.nextLine(); // Membersihkan buffer
+        scanner.nextLine(); 
 
-        // Membuat array of object Dosen
         Dosen23[] arrayDosen = new Dosen23[jumlah];
 
-        // Looping untuk mengisi array dosen
         for (int i = 0; i < jumlah; i++) {
             System.out.println("\nMasukkan data dosen ke-" + (i + 1));
             System.out.print("Kode Dosen: ");
@@ -23,18 +20,14 @@ public class DosenDemo23 {
             boolean jenisKelamin = scanner.nextInt() == 1;
             System.out.print("Usia Dosen: ");
             int usia = scanner.nextInt();
-            scanner.nextLine(); // Membersihkan buffer
+            scanner.nextLine(); 
             
             arrayDosen[i] = new Dosen23(kode, nama, jenisKelamin, usia);
         }
-
-        // Menampilkan semua data dosen menggunakan foreach
         System.out.println("\nData Semua Dosen:");
         for (Dosen23 dosen : arrayDosen) {
             dosen.cetakInfo();
         }
-
-        // Menggunakan class DataDosen23 untuk analisis data
         DataDosen23.dataSemuaDosen23(arrayDosen);
         DataDosen23.jumlahDosenPerJenisKelamin23(arrayDosen);
         DataDosen23.rerataUsiaDosenPerJenisKelamin23(arrayDosen);

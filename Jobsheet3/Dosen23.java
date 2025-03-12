@@ -1,7 +1,7 @@
 public class Dosen23 {
     String kode;
     String nama;
-    boolean jenisKelamin; // true = Pria, false = Wanita
+    boolean jenisKelamin; 
     int usia;
 
     public Dosen23(String kode, String nama, boolean jenisKelamin, int usia) {
@@ -10,8 +10,6 @@ public class Dosen23 {
         this.jenisKelamin = jenisKelamin;
         this.usia = usia;
     }
-
-    // Method untuk menampilkan informasi dosen
     public void cetakInfo() {
         String jk = (jenisKelamin) ? "Pria" : "Wanita";
         System.out.println("Kode Dosen : " + kode);

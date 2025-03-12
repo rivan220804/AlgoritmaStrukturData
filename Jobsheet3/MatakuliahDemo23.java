@@ -4,7 +4,11 @@ public class MatakuliahDemo23 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        Matakuliah23 arraayOfMatakuliah[] = new Matakuliah23[3];
+        System.out.println("Masukkan jumlah mata kuliah: ");
+        int matkul = sc.nextInt();
+        sc.nextLine();
+
+        Matakuliah23 arraayOfMatakuliah[] = new Matakuliah23[matkul];
         String kode, nama, dummy;
         int sks, jumlahJam;
 
