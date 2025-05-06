@@ -26,5 +26,7 @@ public class SortingMain23 {
         dataurut3.bubleSort();
         System.out.println("Data sudah diurutkan dengan BUBBLE SORT (ASC)");
         dataurut3.tampil();
+
+        
     }
 }
