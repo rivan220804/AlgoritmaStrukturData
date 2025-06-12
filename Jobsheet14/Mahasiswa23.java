@@ -1,0 +1,23 @@
+package Jobsheet14;
+
+public class Mahasiswa23 {
+    String nim, nama, kelas;
+    double ipk;
+
+    public Mahasiswa23(){
+    }
+
+    public Mahasiswa23(String nim, String nama, String kelas, double ipk){
+        this.nim = nim;
+        this.nama = nama;
+        this.kelas = kelas;
+        this.ipk = ipk;
+    }
+
+    public void tampilkanInformasi(){
+        System.out.println("NIM: " + this.nim+" " +
+        "Nama: " + this.nama+" "+
+        "Kelas: " + this.kelas+" "+
+        "IPK: "+this.ipk);
+    } 
+}
